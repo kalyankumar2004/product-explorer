@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Explorer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Product Explorer</h2>
+
+    <input id="search-input" type="text" placeholder="Search products">
+
+    <select id="category-filter">
+        <option value="">All Categories</option>
+    </select>
+
+    <select id="sort-filter">
+        <option value="">Default Order</option>
+        <option value="low-high">Price: Low to High</option>
+        <option value="high-low">Price: High to Low</option>
+    </select>
+
+    <div id="product-result"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
